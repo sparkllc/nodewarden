@@ -22,10 +22,6 @@ database_name = "nodewarden-db"
 name = "NOTIFICATIONS_HUB"
 class_name = "NotificationsHub"
 
-[[r2_buckets]]
-binding = "ATTACHMENTS"
-bucket_name = "nodewarden-attachments"
-
 [[migrations]]
 tag = "v1-notifications-hub"
 new_sqlite_classes = [ "NotificationsHub" ]
